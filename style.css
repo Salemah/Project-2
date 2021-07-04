@@ -1,0 +1,180 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+p{
+    margin-bottom: 5%;
+}
+span{
+    color: blueviolet;
+}
+span:hover{
+    color: thistle;
+    transition: .4s;
+}
+.halfw{
+    width: 50%;
+    padding-left: 5%;
+}
+.flexible-cntainer{
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+a{
+    font:bold;
+    text-decoration: none;
+    background-image: linear-gradient( rgb(171, 231, 29),rgb(245, 119, 119));
+    padding: 10px 40px;
+    border-radius: 5px;
+    
+}
+a:hover{
+    background-image: linear-gradient( rgb(79, 109, 8),rgb(252, 4, 4));
+    color: rgb(255, 255, 255);
+    transition: .4s;
+    
+}
+img{
+    width: 80%;
+    padding-top: 2%;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+  
+}
+#h{
+    color: tomato;
+}
+.bottom{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.j{
+    color: rgb(28, 51, 151);
+    font-size:40px ;
+}
+.k{
+    color: tomato;
+    font-size: 30px;
+}
+#p{
+    text-align: center;
+}
+#l{
+ border-left:10px solid ;
+ border-image: linear-gradient(yellow,green);
+ border-image-slice: 1;
+}
+#r{
+    border-left:10px solid ;
+    border-image: linear-gradient(rgb(127, 255, 7),rgb(10, 223, 252));
+    border-image-slice: 1;
+
+}
+h4{
+    font-size: 25px;
+    color: #edc25b;
+}
+#w{
+    padding-right: 5px;
+}
+h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sr{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 3px solid;
+    border-image: linear-gradient(blue,green);
+    border-image-slice: 1;
+    padding: 20px;
+    
+   
+}
+.i{
+
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.h3{
+    color: tomato;
+    font-size: 25px;
+    text-align: center;
+}
+.par{
+    text-align: justify;
+}
+.sr:hover{
+    border: 3px solid;
+    border-image: linear-gradient(rgb(255, 0, 119),rgb(255, 177, 8));
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px;
+    transition: .4s;
+   
+}
+.wrapper{
+    background: rgba(0,0,0,0.4 );
+    width: 100%;
+    height: 12%;
+    
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+
+list-style: none;
+margin-right: 10px;
+display: inline-block;
+margin-top: 2px;
+line-height: 50px;
+color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.logo{
+    
+    padding: 10px;
+    height: 70px;
+    width: 140px;
+}
+.navbar ul li:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    color: tomato;
+    transition: .4s;
+}
+
